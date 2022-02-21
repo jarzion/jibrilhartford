@@ -53,7 +53,7 @@ export default function ProfilePage({ ...rest }) {
           <GridContainer justify="center">
             <div>
               <Button color="hudl" style={{minWidth: '300px', maxWidth: '300px'}} onClick={() => {window.open('https://www.hudl.com/profile/9389123/jibril-hartford','_blank')}}>
-                <object data="/img/jibril/hudl-icon.svg" type="image/svg+xml" style={{minWidth: '20px', maxWidth: '20px'}}></object>&nbsp;&nbsp;View On Hudl
+                <img src="/img/jibril/hudl-icon.svg" type="image/svg+xml" style={{minWidth: '17px', maxWidth: '17px'}}></img>&nbsp;&nbsp;View On Hudl
               </Button>
             </div>
             <div>
