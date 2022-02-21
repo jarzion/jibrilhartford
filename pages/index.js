@@ -8,7 +8,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import Footer from "components/Footer/Footer.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import Parallax from "components/Parallax/Parallax.js";
 import Clearfix from "components/Clearfix/Clearfix.js";
 import Button from "components/CustomButtons/Button.js";
 
@@ -53,8 +52,8 @@ export default function ProfilePage({ ...rest }) {
           <br />
           <GridContainer justify="center">
             <div>
-              <Button color="hudl" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.hudl.com/profile/9389123/jibril-hartford','_blank')}}>
-                <object data="/img/jibril/hudl-icon.svg" type="image/svg+xml" height="20px"></object>&nbsp;&nbsp;View On Hudl
+              <Button color="hudl" style={{minWidth: '300px', maxWidth: '300px'}} onClick={() => {window.open('https://www.hudl.com/profile/9389123/jibril-hartford','_blank')}}>
+                <object data="/img/jibril/hudl-icon.svg" type="image/svg+xml" style={{minWidth: '20px', maxWidth: '20px'}}></object>&nbsp;&nbsp;View On Hudl
               </Button>
             </div>
             <div>
