@@ -11,6 +11,7 @@ class MyDocument extends Document {
           <meta name="theme-color" content="#000000" />
           <link rel="shortcut icon" href="/img/favicon.png" />
           <link rel="apple-touch-icon" sizes="1024x1024" href="/img/jibril/jibril-profile-lax.jpg" />
+          <meta name="apple-mobile-web-app-title" content="Jibril Hartford"></meta>
 
           <meta property="og:image" content="https://www.jibrilhartford.com/img/jibril/jibril-profile-lax.jpg" />
           <meta property="og:image:alt" content="Jibril Hartford | Lakota West | West Chester, OH" />
