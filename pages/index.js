@@ -61,16 +61,16 @@ export default function ProfilePage({ ...rest }) {
                 <i className="fab fa-twitter" /> Connect on twitter
               </Button>
             </div>
-            {/* <div>
-              <Button color="facebook" style={{minWidth: '300px'}}>
-                <i className="fab fa-facebook-square" /> Connect on Facebook
+            <div>
+              <Button color="instagram" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.instagram.com/jibrilhartford','_blank')}}>
+                <i className="fab fa-instagram" /> Connect on Instgram
               </Button>
             </div>
             <div>
-              <Button color="instagram" style={{minWidth: '300px'}}>
-                <i className="fab fa-instagram" /> Connect on Instgram
+              <Button color="facebook" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.facebook.com/jibrilhartford','_blank')}}>
+                <i className="fab fa-facebook-square" /> Connect on Facebook
               </Button>
-            </div> */}
+            </div>
             <div>
               <Button color="youtube" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.youtube.com/channel/UCOeA4NU8uPT6QwCFXspvATQ','_blank')}}>
                 <i className="fab fa-youtube" /> View On Youtube
