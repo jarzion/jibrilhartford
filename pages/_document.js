@@ -10,11 +10,18 @@ class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#000000" />
           <link rel="shortcut icon" href="/img/favicon.png" />
-          <link
-            rel="apple-touch-icon"
-            sizes="76x76"
-            href="/img/apple-icon.png"
-          />
+          <link rel="apple-touch-icon" sizes="1024x1024" href="/img/jibril/jibril-profile-lax.jpg" />
+
+          <meta property="og:image" content="https://www.jibrilhartford.com/img/jibril/jibril-profile-lax.jpg" />
+          <meta property="og:image:alt" content="Jibril Hartford | Lakota West | West Chester, OH" />
+          <meta property="og:title" content="Jibril Hartford | Lakota West | West Chester, OH" />
+          <meta property="og:description" content="Jibril Hartford Football/Lacrosse Player, Lakota West, West Chester, OH" />
+          <meta property="og:url" content="https://www.jibrilhartford.com/" />
+          <meta property="og:type" content="profile" />
+          <meta property="profile:first_name" content="Jibril" />
+          <meta property="profile:last_name" content="Hartford" />
+          <meta property="profile:gender" content="male" />
+
           {/* Fonts and icons */}
           <link
             rel="stylesheet"
