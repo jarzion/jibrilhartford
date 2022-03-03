@@ -51,31 +51,33 @@ export default function ProfilePage({ ...rest }) {
           </GridContainer>
           <br />
           <GridContainer justify="center">
-            <div>
-              <Button color="hudl" style={{minWidth: '300px', maxWidth: '300px'}} onClick={() => {window.open('https://www.hudl.com/profile/9389123/jibril-hartford','_blank')}}>
+            <ul class="image-gallery-thumbnails-container">
+              <li>
+              <Button onClick={() => {dataLayer.push({'event': 'outbound_click', 'location': 'hudl'});window.open('https://www.hudl.com/profile/9389123/jibril-hartford','_blank')}} color="hudl" style={{minWidth: '300px', maxWidth: '300px'}}>
                 <img src="/img/jibril/hudl-icon.svg" type="image/svg+xml" style={{minWidth: '17px', maxWidth: '17px'}}></img>&nbsp;&nbsp;View On Hudl
               </Button>
-            </div>
-            <div>
-              <Button color="twitter" style={{minWidth: '300px'}} onClick={() => {window.open('https://twitter.com/JibrilHartford','_blank')}}>
+              </li>
+              <li>
+              <Button onClick={() => {dataLayer.push({'event': 'outbound_click', 'location': 'twitter'});window.open('https://twitter.com/JibrilHartford','_blank')}} color="twitter" style={{minWidth: '300px'}}>
                 <i className="fab fa-twitter" /> Connect on twitter
               </Button>
-            </div>
-            <div>
-              <Button color="instagram" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.instagram.com/jibrilhartford','_blank')}}>
+              </li>
+              <li>
+              <Button onClick={() => {dataLayer.push({'event': 'outbound_click', 'location': 'instagram'});window.open('https://www.instagram.com/jibrilhartford','_blank')}} color="instagram" style={{minWidth: '300px'}}>
                 <i className="fab fa-instagram" /> Connect on Instgram
               </Button>
-            </div>
-            <div>
-              <Button color="facebook" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.facebook.com/jibrilhartford','_blank')}}>
+              </li>
+              <li>
+              <Button onClick={() => {dataLayer.push({'event': 'outbound_click', 'location': 'facebook'});window.open('https://www.facebook.com/jibrilhartford','_blank')}} color="facebook" style={{minWidth: '300px'}}>
                 <i className="fab fa-facebook-square" /> Connect on Facebook
               </Button>
-            </div>
-            <div>
-              <Button color="youtube" style={{minWidth: '300px'}} onClick={() => {window.open('https://www.youtube.com/channel/UCOeA4NU8uPT6QwCFXspvATQ','_blank')}}>
+              </li>
+              <li>
+              <Button onClick={() => {dataLayer.push({'event': 'outbound_click', 'location': 'youtube'});window.open('https://www.youtube.com/channel/UCOeA4NU8uPT6QwCFXspvATQ','_blank')}} color="youtube" style={{minWidth: '300px'}}>
                 <i className="fab fa-youtube" /> View On Youtube
               </Button>
-            </div>
+              </li>
+              </ul>
           </GridContainer>
           <br />
           <br />

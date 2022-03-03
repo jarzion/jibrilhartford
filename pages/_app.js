@@ -19,14 +19,20 @@ import ReactDOM from "react-dom";
 import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
-
 import PageChange from "components/PageChange/PageChange.js";
 
 import "styles/scss/nextjs-material-kit-pro.scss?v=1.2.0";
-
 import "styles/css/react-demo.css";
-
 import "animate.css/animate.min.css";
+
+import TagManager from 'react-gtm-module'
+ 
+const tagManagerArgs = {
+    gtmId: 'GTM-PHWQSPC'
+}
+if (process.browser) {  
+  TagManager.initialize(tagManagerArgs)
+}
 
 Router.events.on("routeChangeStart", (url) => {
   console.log(`Loading: ${url}`);
